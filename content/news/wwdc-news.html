@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWDC 2025 — Bonsai NT</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-dark text-white">
+  <header class="d-flex justify-content-between align-items-center p-3 bg-black">
+        <div class="d-flex align-items-center">
+            <a href="../../index.html" class="d-flex align-items-center text-white text-decoration-none">
+                <img src="../../img/BNT2.png" alt="Bonsai NT" class="me-2" width="32" height="32">
+                <span class="fw-bold">NT</span>
+            </a>
+        </div>
+        <nav class="d-flex gap-3">
+            <button class="btn btn-dark p-0 border-0" data-bs-toggle="modal" data-bs-target="#modalBusqueda">
+                <img src="../../img/magnifier.png" alt="Buscar" width="28" height="28">
+            </button>
+            <button class="btn btn-dark p-0 border-0" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                <img src="../../img/menu.png" alt="Menú" width="28" height="28">
+            </button>
+        </nav>
+    </header>
+    <div class="modal fade" id="modalBusqueda" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content text-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title">Buscar noticias</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button class="btn btn-primary">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="menuLateralLabel">Menú</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column gap-2">
+            <li><a href="../../index.html" class="text-white text-decoration-none">Inicio</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Noticias</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Tutoriales</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <main class="container my-5 flex-fill">
+        <h1 class="mb-4 text-center">WWDC 2025</h1>
+        <img src="../../img/wwdc2025.jpg" class="img-fluid rounded mb-4" alt="macOS Tahoe">
+        <p>Durante la conferencia WWDC 2025, Apple presentó una serie de actualizaciones importantes en sus sistemas
+            operativos y en la integración de inteligencia artificial en todo su ecosistema.
+        </p>
+        <p>Uno de los anuncios más destacados fue la introducción del nuevo lenguaje visual llamado "Liquid Glass", 
+            que representa el primer rediseño completo de la interfaz desde 2013. Esta renovación afecta a iOS, iPadOS, 
+            macOS, watchOS, tvOS y visionOS, ofreciendo un estilo más limpio, moderno y coherente entre dispositivos.
+        </p>
+        <p>Apple también cambió su forma de nombrar los sistemas operativos, adoptando ahora el número del año. Por ejemplo,
+             en lugar de iOS 18, la nueva versión se llama iOS 26.
+        </p>
+        <p>Otra gran novedad fue la presentación de "Apple Intelligence", el nuevo conjunto de funciones de inteligencia artificial 
+            integrado en sus plataformas. Estas incluyen herramientas como la transcripción automática, traducción en vivo en llamadas, 
+            respuestas inteligentes en Mensajes y mejoras en Siri.
+        </p>
+        <p>iPadOS 26 introdujo mejoras importantes en la multitarea, una gestión de ventanas más flexible y una mejor organización de archivos. 
+            También se destacaron nuevas capacidades creativas para usuarios profesionales.
+        </p>
+        <p>macOS, por su parte, recibió una actualización importante bajo el nombre de macOS Tahoe, con cambios visuales, mejoras de rendimiento 
+            y nuevas funciones colaborativas.
+        </p>
+        <p>Finalmente, Apple mostró avances en watchOS, tvOS y visionOS, los cuales también adoptan el nuevo diseño visual y se benefician de las 
+            capacidades de Apple Intelligence.
+        </p>
+        <div class="ratio ratio-16x9 mb-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0_DjDdfqtUE?si=rE1-4EdjzZaORVLF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </main>
+    <footer class="text-center py-3 bg-black mt-auto">
+        <small>2025 Bonsai NT — Noticias de SO y Tecnología</small>
+    </footer>
+    <script src="../../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
