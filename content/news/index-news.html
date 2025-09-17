@@ -4,22 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bonsai NT — Noticias de SO</title>
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
 </head>
 <body class="d-flex flex-column min-vh-100 bg-dark text-white">
   <header class="d-flex justify-content-between align-items-center p-3 bg-black">
         <div class="d-flex align-items-center">
             <a href="/" class="d-flex align-items-center text-white text-decoration-none">
-                <img src="./img/BNT2.png" alt="Bonsai NT" class="me-2" width="32" height="32">
+                <img src="../../img/BNT2.png" alt="Bonsai NT" class="me-2" width="32" height="32">
                 <span class="fw-bold">NT</span>
             </a>
         </div>
         <nav class="d-flex gap-3">
             <button class="btn btn-dark p-0 border-0" data-bs-toggle="modal" data-bs-target="#modalBusqueda">
-                <img src="./img/magnifier.png" alt="Buscar" width="28" height="28">
+                <img src="../../img/magnifier.png" alt="Buscar" width="28" height="28">
             </button>
             <button class="btn btn-dark p-0 border-0" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
-                <img src="./img/menu.png" alt="Menú" width="28" height="28">
+                <img src="../../img/menu.png" alt="Menú" width="28" height="28">
             </button>
         </nav>
         <div class="modal fade" id="modalBusqueda" tabindex="-1" aria-hidden="true">
@@ -46,23 +46,43 @@
             </div>
             <div class="offcanvas-body">
                 <ul class="nav flex-column gap-2">
-                <li><a href="#" class="text-white text-decoration-none">Inicio</a></li>
-                <li><a href="./content/news/index-news.html" class="text-white text-decoration-none">Noticias</a></li>
-                <li><a href="./content/tutorials/index-tutorials.html" class="text-white text-decoration-none">Tutoriales</a></li>
-                <li><a href="#" class="text-white text-decoration-none">Contacto</a></li>
+                <li><a href="../../index.html" class="text-white text-decoration-none">Inicio</a></li>
+                <li><a href="../news/index-news.html" class="text-white text-decoration-none">Noticias</a></li>
+                <li><a href="../tutorials/index-tutorials.html" class="text-white text-decoration-none">Tutoriales</a></li>
+                <li><a href="../contact/contact.html" class="text-white text-decoration-none">Contacto</a></li>
                 </ul>
             </div>
         </div>
   </header>
   <main class="container my-4 flex-fill">
-        <h1 class="mb-4 text-center">Noticia del Día</h1>
+        <h1 class="mb-4 text-center">Noticias Destacadas</h1>
         <div class="row justify-content-center g-4">
             <div class="col-12 col-md-6 col-lg-4">
-                <a href="./content/news/tahoe-macos-news.html" class="text-decoration-none">
+                <a href="./tahoe-macos-news.html" class="text-decoration-none">
                     <div class="card bg-dark text-white border-0 shadow-lg h-100">
-                        <img src="./img/MACOS_TAHOE.jpeg" class="card-img-top rounded-3" alt="macOS Tahoe">
+                        <img src="../../img/MACOS_TAHOE.jpeg" class="card-img-top rounded-3" alt="macOS Tahoe">
                         <div class="card-body">
                             <h5 class="card-title text-center">MacOS Tahoe ya esta disponible</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="./ubuntu-news.html" class="text-decoration-none">
+                    <div class="card bg-dark text-white border-0 shadow-lg h-100">
+                        <img src="../../img/UBUNTU.jpeg" class="card-img-top rounded-3" alt="Ubuntu 24.04.3 LTS">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ubuntu 24.04.3 LTS</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="../../content/news/wwdc-news.html" class="text-decoration-none">
+                    <div class="card bg-dark text-white border-0 shadow-lg h-100">
+                        <img src="../../img/apple_event.jpg" class="card-img-top rounded-3" alt="apple_event">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">WWDC 2025</h5>
                         </div>
                     </div>
                 </a>
@@ -72,6 +92,6 @@
   <footer class="text-center py-3 bg-black mt-auto">
     <small>2025 Bonsai NT — Noticias de SO y Tecnologia</small>
   </footer>
-  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
